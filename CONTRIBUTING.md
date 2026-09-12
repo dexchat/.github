@@ -1,4 +1,4 @@
-# Contributing to dex
+# Contributing
 
 Here are some best practices if you want to contribute to this project.
 Please note that this a personal project and I maintain in my free time, but of course I will try my best to review, ship and fix everything in a reasonable time.
@@ -10,7 +10,8 @@ Feel free to pick any open issue and start working on it. If you need help or gu
 If you want to start contributing to the project, beginner friendly issues are tagged with the ["contributor friendly"](https://github.com/dexchat/dex/issues?q=sort%3Aupdated-desc%20is%3Aissue%20state%3Aopen%20label%3A%22contributor%20friendly%22) label.
 
 ### New features and suggestions
-If you have a new idea that you would like to be part of dexchat, please [open a discussion](https://github.com/dexchat/dex/discussions/new?category=feature-requests-and-ideas) before opening a pull request. The idea is to always be aligned about what is being implemented, this way everyone can think about the change, discuss and provide feedback.
+If you have a new idea that you would like to be part of dexchat, please [open a discussion](https://github.com/dexchat/dex/discussions/new?category=feature-requests-and-ideas) before opening a pull request.  
+The idea is to always be aligned about what is being implemented, this way everyone can think about the change, discuss and provide feedback.
 It is also a good place to look for new features to implement in the project. Then, after we have discussed, you can [open a Feature Request](https://github.com/dexchat/dex/issues/new?template=feature.yml).
 
 ### I have a bug!
