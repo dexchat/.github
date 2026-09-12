@@ -34,3 +34,11 @@ body:
       placeholder: v1.2.3 or 1b2c3d4
     validations:
       required: true
+
+  - type: checkboxes
+    id: contributing-guide
+    attributes:
+      label: Contributing guide
+      options:
+        - label: I have read the [contributing guide](https://github.com/dexchat/dex/blob/main/CONTRIBUTING.md).
+          required: true

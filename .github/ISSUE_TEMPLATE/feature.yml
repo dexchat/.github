@@ -18,3 +18,11 @@ body:
         Are there any alternatives or additional context?
     validations:
       required: true
+
+  - type: checkboxes
+    id: contributing-guide
+    attributes:
+      label: Contributing guide
+      options:
+        - label: I have read the [contributing guide](https://github.com/dexchat/dex/blob/main/CONTRIBUTING.md).
+          required: true
