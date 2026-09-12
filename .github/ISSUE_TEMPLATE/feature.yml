@@ -1,0 +1,20 @@
+name: Feature request
+description: Suggest an idea or improvement
+labels: []
+assignees: []
+type: Feature
+
+body:
+  - type: textarea
+    id: feature-request
+    attributes:
+      label: Feature request
+      description: Describe the problem, your proposed solution, and any alternatives you considered.
+      placeholder: |
+        What problem would this feature solve?
+
+        How do you imagine it working?
+
+        Are there any alternatives or additional context?
+    validations:
+      required: true
