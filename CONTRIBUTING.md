@@ -35,3 +35,6 @@ Pull requests for non-trivial changes should address an existing issue. Small do
 > **Pull requests are NOT the place to discuss the feature itself.** That should
 > be done in Discussions. They are the place to discuss the code being
 > implemented, though.
+
+### Code
+For commit messages, please use [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) to make it easier to generate release notes.
