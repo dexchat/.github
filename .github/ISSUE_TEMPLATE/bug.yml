@@ -11,39 +11,25 @@ body:
         Thanks for taking the time to report a bug!
 
   - type: textarea
-    id: description
+    id: bug-report
     attributes:
-      label: Describe the bug
-      description: A clear and concise description of what the bug is.
-      placeholder: Tell us what happened.
+      label: Bug report
+      description: Describe the bug, explain the expected behavior, and attach any helpful screenshots.
+      placeholder: |
+        Describe the bug and what happened.
+
+        Explain what you expected to happen.
+
+        Drag and drop any helpful screenshots here.
     validations:
       required: true
 
-  - type: textarea
-    id: expected-behavior
-    attributes:
-      label: Expected behavior
-      description: What was supposed to happen?
-      placeholder: Tell us what you expected to happen.
-    validations:
-      required: true
-
-  - type: textarea
-    id: screenshots
-    attributes:
-      label: Screenshots
-      description: Screenshots are always welcome.
-      placeholder: Drag and drop screenshots here.
-
-  - type: textarea
+  - type: input
     id: environment
     attributes:
       label: Environment
       description: Include your operating system, distribution, terminal, multiplexer, and any other relevant details.
-      placeholder: |
-        Operating system: macOS 15.6
-        Terminal: Ghostty 1.1.3
-        Multiplexer: tmux 3.5a
+      placeholder: macOS 15.6, Ghostty 1.1.3, tmux 3.5a
     validations:
       required: true
 
