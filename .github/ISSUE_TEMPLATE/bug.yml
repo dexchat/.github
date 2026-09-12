@@ -5,22 +5,16 @@ assignees: []
 type: Bug
 
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Thanks for taking the time to report a bug!
-
   - type: textarea
     id: bug-report
     attributes:
       label: Bug report
-      description: Describe the bug, explain the expected behavior, and attach any helpful screenshots.
       placeholder: |
         Describe the bug and what happened.
 
-        Explain what you expected to happen.
+        What was supposed to happen?
 
-        Drag and drop any helpful screenshots here.
+        Screenshots are always helpful!
     validations:
       required: true
 
@@ -29,7 +23,7 @@ body:
     attributes:
       label: Environment
       description: Include your operating system, distribution, terminal, multiplexer, and any other relevant details.
-      placeholder: macOS 15.6, Ghostty 1.1.3, tmux 3.5a
+      placeholder: arch linux, ghostty, tmux, etc.
     validations:
       required: true
 
@@ -37,7 +31,6 @@ body:
     id: version
     attributes:
       label: Version
-      description: Enter the release version or commit you are using.
       placeholder: v1.2.3 or 1b2c3d4
     validations:
       required: true
