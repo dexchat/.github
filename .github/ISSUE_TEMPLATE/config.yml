@@ -1,1 +1,4 @@
-blank_issues_enabled: false
+blank_issues_enabled: true
+contact_links:
+  - name: IRC
+    about: Let's chat in IRC: `#dexchat` in libera.
